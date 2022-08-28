@@ -1,0 +1,1860 @@
+body {
+    margin: 0px;
+    /* background-image: radial-gradient(white, rgba(255, 255, 0, 0.59)); */
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.Hbar {
+    margin: 70px 0px;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    background-color: rgb(255, 255, 0, 0.7);
+    box-shadow: 0px 0px 10px goldenrod, 0px 0px 5px rgb(255, 89, 0);
+}
+
+.BGIMAGE {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 20px goldenrod, 0px 0px 5px rgb(255, 89, 0);
+    background-image: url(/Chicken-Barbeque-Kebab.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.BGIMAGEBG {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.Header {
+    padding: 5px;
+    z-index: 3;
+    height: 98.5vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.ulHeader {
+    list-style: none;
+    z-index: 3;
+    transition: 0.5s;
+}
+
+.ulHeader li {
+    z-index: 3;
+    float: left;
+    padding-left: 5px;
+}
+
+.ulHeader a:hover {
+    color: rgb(255, 198, 117);
+    color: rgb(255, 255, 0);
+    text-shadow: 0px 0px 10px goldenrod, 0px 0px 5px rgb(255, 89, 0);
+}
+
+
+.ulHeader a {
+    padding: 2px 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.Logo {
+    z-index: 3;
+    clear: left;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.Logo img {
+    margin: 5px 5px;
+    width: 50px;
+    border-radius: 50%;
+    top: 10px;
+    transition: 0.2s;
+}
+
+.Logo img:hover {
+    width: 53px;
+    box-shadow: 0px 0px 17px goldenrod, 0px 0px 8px rgb(255, 89, 0);
+}
+
+.Title {
+    clear: both;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.Title h1 {
+    position: relative;
+    text-align: center;
+    top: -70px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.Title p {
+    font-family: 'M PLUS 1 Code', sans-serif;
+    text-align: center;
+}
+
+.Title button {
+    position: absolute;
+    left: 50%;
+    top: 150%;
+    border-radius: 5px;
+    font-weight: 800;
+    padding: 10px 50px;
+    border: none;
+    transition-duration: 0.25s;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255, 0);
+}
+
+#CODE {
+    display: inline;
+}
+
+#redtag:hover {
+    text-shadow: 1px 1px 0px rgb(255, 0, 0), -1px -1px 0px rgb(0, 255, 255), 0px 0px 10px goldenrod, 0px 0px 5px rgb(255, 89, 0);
+}
+
+.Title h2 {
+    position: relative;
+    text-align: left;
+    top: -70px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.Title button:hover {
+    background-color: rgb(255, 255, 0);
+    box-shadow: 0px 0px 20px goldenrod, 0px 0px 5px rgb(255, 89, 0);
+    color: rgb(0, 0, 0);
+}
+
+#tag {
+    color: rgb(0, 0, 0);
+}
+
+#tag1 {
+    color: rgb(0, 0, 0);
+}
+
+#redtag {
+    color: rgb(255, 255, 0);
+    text-shadow: 0px 0px 10px goldenrod, 0px 0px 5px rgb(255, 89, 0);
+}
+
+.Chat {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    background-color: rgb(0, 0, 0, 0.75);
+    border-radius: 50%;
+    position: fixed;
+    right: 2px;
+    bottom: 2px;
+    z-index: 10;
+}
+
+.Chat i {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.Chat:hover .fa {
+    color: rgb(255, 255, 0);
+    text-shadow: 0px 0px 13px goldenrod, 0px 0px 7px rgb(255, 89, 0);
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-timing-function: cubic-bezier(0.39, 0.2, 0.85, 1.04);
+    animation-iteration-count: 1;
+    animation-name: ChatRot;
+}
+
+.BarsP {
+    width: 100%;
+    height: 100%;
+    transform: translate(50% 50%);
+    position: relative;
+    display: block;
+    margin: 0px;
+}
+
+.Bars0 {
+
+    position: absolute;
+    top: 45%;
+    right: 48.02%;
+    margin: auto;
+    width: 10px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: cubic-bezier(0.39, 0.2, 0.85, 1.04);
+    animation-iteration-count: infinite;
+    animation-name: Bar;
+}
+
+.Bars1 {
+
+    position: absolute;
+    top: 45%;
+    right: 49%;
+    margin: auto;
+    width: 10px;
+    height: 50px;
+    background-color: rgb(0, 255, 8);
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    animation-timing-function: cubic-bezier(0.39, 0.2, 0.85, 1.04);
+    animation-iteration-count: infinite;
+    animation-name: Bar;
+}
+
+.Bars2 {
+
+    position: absolute;
+    top: 45%;
+    right: 50%;
+    margin: auto;
+    width: 10px;
+    height: 50px;
+    background-color: rgb(0, 0, 255);
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-timing-function: cubic-bezier(0.39, 0.2, 0.85, 1.04);
+    animation-iteration-count: infinite;
+    animation-name: Bar;
+}
+
+.Bars3 {
+
+    position: absolute;
+    top: 45%;
+    right: 51%;
+    margin: auto;
+    width: 10px;
+    height: 50px;
+    background-color: rgb(255, 255, 0);
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+    animation-timing-function: cubic-bezier(0.39, 0.2, 0.85, 1.04);
+    animation-iteration-count: infinite;
+    animation-name: Bar;
+}
+
+.Bars4 {
+
+    position: absolute;
+    top: 45%;
+    right: 52%;
+    margin: auto;
+    width: 15px;
+    height: 50px;
+    background-color: rgb(0, 255, 234);
+    animation-duration: 1s;
+    animation-delay: 0.4s;
+    animation-timing-function: cubic-bezier(0.39, 0.2, 0.85, 1.04);
+    animation-iteration-count: infinite;
+    animation-name: Bar;
+}
+
+@keyframes Bar {
+    0% {
+        transform: scaleY(1);
+    }
+
+    50% {
+        transform: scaleY(0);
+    }
+
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+@keyframes ChatRot {
+    0% {
+        transform: rotateZ(0deg) scale(1);
+    }
+
+    25% {
+        transform: rotateZ(90deg) scale(1.5);
+    }
+
+    50% {
+        transform: rotateZ(180deg) scale(0.75);
+    }
+
+    100% {
+        transform: rotateZ(360deg) scale(1);
+    }
+}
+
+.Home {
+    margin: 20px auto;
+    width: 800px;
+}
+
+.cards {
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px goldenrod, 0px 0px 5px rgb(255, 89, 0);
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    display: inline-block;
+    background-color: rgb(255, 255, 0, 0.6);
+}
+
+
+
+.About {
+    top: 15px;
+    position: relative;
+}
+
+.About h1 {
+    border-bottom: 1px solid yellow;
+    /* Box-shadow: 1px 1px 5px rgb(255, 222, 0), 1px 1px 1px rgb(255, 100, 0); */
+    text-shadow: 1px 1px 6px rgb(255, 222, 0), 1px 1px 3px rgb(255, 90, 0);
+    color: yellow;
+    display: inline;
+    font-size: xx-large;
+    text-align: left;
+    padding: 10px 25px;
+    margin: 25px 0px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.About p {
+    display: block;
+    text-align: left;
+    font-weight: 600;
+    padding: 10px 25px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.TopImg {
+    box-shadow: 5px 5px 10px black;
+    width: 50%;
+    height: 450px;
+    margin: auto;
+    display: block;
+    position: absolute;
+    right: 720px;
+    z-index: 2;
+}
+
+.BottomImg {
+    /* box-shadow: -5px 5px 5px black; */
+    width: 50%;
+    height: 450px;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 180px;
+    left: 720px;
+    z-index: 1;
+}
+
+.ImgDesc a {
+    margin: 10px;
+    position: absolute;
+    top: 600px;
+    left: 360px;
+    z-index: 3;
+    color: rgb(0, 0, 0);
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+#ViewBtn {
+    position: relative;
+    border-radius: 5px;
+    font-weight: 750;
+    margin: 25px;
+    padding: 10px 50px;
+    border: 1px solid black;
+    transition-duration: 0.25s;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255, 0);
+}
+
+#ViewBtn:hover {
+    border: none;
+    background-color: rgb(255, 255, 0);
+    box-shadow: 0px 0px 20px goldenrod, 0px 0px 5px rgb(255, 89, 0);
+    color: rgb(255, 255, 255);
+}
+
+.ImgDesc h2 {
+    margin: 10px;
+    position: absolute;
+    top: 650px;
+    left: 725px;
+    z-index: 3;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.5);
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.ImgDesc p {
+    margin: 10px;
+    position: absolute;
+    text-align: left;
+    top: 700px;
+    left: 710px;
+    z-index: 3;
+    color: rgb(0, 0, 0);
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.Chef img {
+    box-shadow: 0px 0px 10px rgb(255, 222, 0), 0px 0px 5px rgb(255, 90, 0);
+    z-index: 5;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 700px;
+    border-radius: 50%;
+}
+
+.Chef h3 {
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    top: 720px;
+    z-index: 3;
+    color: rgb(255, 251, 0);
+    text-shadow: 1px 1px 6px rgb(255, 222, 0), 1px 1px 3px rgb(255, 90, 0);
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.Chef p {
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    top: 720px;
+    z-index: 3;
+    color: rgb(0, 0, 0);
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.ChefIcons {
+    display: block;
+    position: absolute;
+    top: 1175px;
+    left: 670px;
+    margin: auto;
+}
+
+.ChefIcons li {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    margin: 10px 2px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    text-shadow: 1px 1px 4px rgb(255, 222, 0), 1px 1px 2px rgb(255, 90, 0);
+    transition: 0.2s;
+    border-bottom: 1px solid yellow;
+}
+
+.ChefIcons i {
+    transition: 0.25s;
+}
+
+.fab {
+    text-align: center;
+    font-size: large;
+    position: relative;
+    top: 3px;
+    right: -4px;
+}
+
+.fas {
+    text-align: center;
+    font-size: large;
+    position: relative;
+    top: 4px;
+    right: -3px;
+}
+
+.far {
+    text-align: center;
+    font-size: large;
+    position: relative;
+    top: 2.5px;
+    right: -4px;
+}
+
+.ChefIcons li:hover {
+    width: 30px;
+    height: 30px;
+}
+
+.ChefIcons li:hover i {
+    font-size: x-large;
+}
+
+
+.Menu {
+    position: relative;
+    top: 800px;
+}
+
+.MenuList {
+    position: absolute;
+    left: -15px;
+}
+
+.MenuList div {
+    display: inline-block;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.MenuList h2 {
+    margin-left: 280px;
+    padding: 0px 10px;
+    position: relative;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.5);
+    border-bottom: 2px solid rgb(255, 251, 0);
+    box-shadow: 0px 1px 1px rgb(255, 177, 0);
+}
+
+.GAppetizers {
+    height: 150px;
+    width: 440px;
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 120px;
+}
+
+.AppetCard1 {
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+    margin: 5px 0px;
+    transition: 0.25s;
+}
+
+.AppetCard1:hover {
+    border: 2px solid yellow;
+    box-shadow: 1px 1px 10px rgb(255, 222, 0), 1px 1px 5px rgb(255, 90, 0);
+    text-shadow: 1px 1px 2px rgb(255, 222, 0), 1px 1px 1px rgb(255, 90, 0);
+}
+
+.AppetCard2 {
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+    margin: 5px 0px;
+    transition: 0.25s;
+}
+
+.AppetCard2:hover {
+    border: 2px solid yellow;
+    box-shadow: 1px 1px 10px rgb(255, 222, 0), 1px 1px 5px rgb(255, 90, 0);
+    text-shadow: 1px 1px 2px rgb(255, 222, 0), 1px 1px 1px rgb(255, 90, 0);
+}
+
+.AppetCard3 {
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+    margin: 5px 0px;
+    transition: 0.25s;
+}
+
+.AppetCard3:hover {
+    border: 2px solid yellow;
+    box-shadow: 1px 1px 10px rgb(255, 222, 0), 1px 1px 5px rgb(255, 90, 0);
+    text-shadow: 1px 1px 2px rgb(255, 222, 0), 1px 1px 1px rgb(255, 90, 0);
+}
+
+.AppetCard1 img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    position: relative;
+    top: -5px;
+}
+
+.AppetCard1 h3 {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+    color: black;
+    text-decoration: none;
+}
+
+.AppetCard1 p {
+    color: black;
+    text-decoration: none;
+    display: inline;
+}
+
+.AppetCard1 span {
+    position: relative;
+    margin-left: 260px;
+    top: -60px;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 1px 1px 6px rgb(255, 222, 0), 1px 1px 3px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.AppetText1 {
+    width: 300px;
+}
+
+.AppetCard2 img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    position: relative;
+    top: -5px;
+}
+
+.AppetCard2 h3 {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+    color: black;
+    text-decoration: none;
+}
+
+.AppetCard2 p {
+    display: inline;
+    color: black;
+    text-decoration: none;
+}
+
+.AppetCard2 span {
+    position: relative;
+    margin-left: 260px;
+    top: -60px;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 1px 1px 6px rgb(255, 222, 0), 1px 1px 3px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.AppetText2 {
+    width: 300px;
+}
+
+.AppetCard3 img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    position: relative;
+    top: -5px;
+}
+
+.AppetCard3 h3 {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+    color: black;
+    text-decoration: none;
+}
+
+.AppetCard3 p {
+    display: inline;
+    color: black;
+    text-decoration: none;
+}
+
+.AppetCard3 span {
+    position: relative;
+    margin-left: 260px;
+    top: -60px;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 1px 1px 6px rgb(255, 222, 0), 1px 1px 3px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.AppetText3 {
+    width: 300px;
+}
+
+
+.GMainDishes {
+    height: 150px;
+    width: 440px;
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 565px;
+}
+
+.MainCard1 {
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+    margin: 5px 0px;
+    transition: 0.25s;
+}
+
+.MainCard1:hover {
+    border: 2px solid yellow;
+    box-shadow: 1px 1px 10px rgb(255, 222, 0), 1px 1px 5px rgb(255, 90, 0);
+    text-shadow: 1px 1px 2px rgb(255, 222, 0), 1px 1px 1px rgb(255, 90, 0);
+}
+
+.MainCard2 {
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+    margin: 5px 0px;
+    transition: 0.25s;
+}
+
+.MainCard2:hover {
+    border: 2px solid yellow;
+    box-shadow: 1px 1px 10px rgb(255, 222, 0), 1px 1px 5px rgb(255, 90, 0);
+    text-shadow: 1px 1px 2px rgb(255, 222, 0), 1px 1px 1px rgb(255, 90, 0);
+}
+
+.MainCard3 {
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+    margin: 5px 0px;
+    transition: 0.25s;
+}
+
+.MainCard3:hover {
+    border: 2px solid yellow;
+    box-shadow: 1px 1px 10px rgb(255, 222, 0), 1px 1px 5px rgb(255, 90, 0);
+    text-shadow: 1px 1px 2px rgb(255, 222, 0), 1px 1px 1px rgb(255, 90, 0);
+}
+
+.MainCard1 img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    position: relative;
+    top: -5px;
+}
+
+.MainCard1 h3 {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+    color: black;
+    text-decoration: none;
+}
+
+.MainCard1 p {
+    display: inline;
+    color: black;
+    text-decoration: none;
+}
+
+.MainCard1 span {
+    position: relative;
+    margin-left: 260px;
+    top: -60px;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 1px 1px 6px rgb(255, 222, 0), 1px 1px 3px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.MainText1 {
+    width: 300px;
+}
+
+.MainCard2 img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    position: relative;
+    top: -5px;
+}
+
+.MainCard2 h3 {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+    color: black;
+    text-decoration: none;
+}
+
+.MainCard2 p {
+    display: inline;
+    color: black;
+    text-decoration: none;
+}
+
+.MainCard2 span {
+    position: relative;
+    margin-left: 260px;
+    top: -60px;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 1px 1px 6px rgb(255, 222, 0), 1px 1px 3px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.MainText2 {
+    width: 300px;
+}
+
+.MainCard3 img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    position: relative;
+    top: -5px;
+}
+
+.MainCard3 h3 {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+    color: black;
+    text-decoration: none;
+}
+
+.MainCard3 p {
+    display: inline;
+    color: black;
+    text-decoration: none;
+}
+
+.MainCard3 span {
+    position: relative;
+    margin-left: 260px;
+    top: -60px;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 1px 1px 6px rgb(255, 222, 0), 1px 1px 3px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.MainText3 {
+    width: 300px;
+}
+
+
+.GDesserts {
+    height: 150px;
+    width: 440px;
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 1010px;
+}
+
+.DessertCard1 {
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+    margin: 5px 0px;
+    transition: 0.25s;
+}
+
+.DessertCard1:hover {
+    border: 2px solid yellow;
+    box-shadow: 1px 1px 10px rgb(255, 222, 0), 1px 1px 5px rgb(255, 90, 0);
+    text-shadow: 1px 1px 2px rgb(255, 222, 0), 1px 1px 1px rgb(255, 90, 0);
+}
+
+.DessertCard2 {
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+    margin: 5px 0px;
+    transition: 0.25s;
+}
+
+.DessertCard2:hover {
+    border: 2px solid yellow;
+    box-shadow: 1px 1px 10px rgb(255, 222, 0), 1px 1px 5px rgb(255, 90, 0);
+    text-shadow: 1px 1px 2px rgb(255, 222, 0), 1px 1px 1px rgb(255, 90, 0);
+}
+
+.DessertCard3 {
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+    margin: 5px 0px;
+    transition: 0.25s;
+}
+
+.DessertCard3:hover {
+    border: 2px solid yellow;
+    box-shadow: 1px 1px 10px rgb(255, 222, 0), 1px 1px 5px rgb(255, 90, 0);
+    text-shadow: 1px 1px 2px rgb(255, 222, 0), 1px 1px 1px rgb(255, 90, 0);
+}
+
+.DessertCard1 img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    position: relative;
+    top: -5px;
+}
+
+.DessertCard1 h3 {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+    color: black;
+    text-decoration: none;
+}
+
+.DessertCard1 p {
+    display: inline;
+    color: black;
+    text-decoration: none;
+}
+
+.DessertCard1 span {
+    position: relative;
+    margin-left: 260px;
+    top: -60px;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 1px 1px 6px rgb(255, 222, 0), 1px 1px 3px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.DessertText1 {
+    width: 300px;
+}
+
+.DessertCard2 img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    position: relative;
+    top: -5px;
+}
+
+.DessertCard2 h3 {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+    color: black;
+    text-decoration: none;
+}
+
+.DessertCard2 p {
+    display: inline;
+    color: black;
+    text-decoration: none;
+}
+
+.DessertCard2 span {
+    position: relative;
+    margin-left: 260px;
+    top: -60px;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 1px 1px 6px rgb(255, 222, 0), 1px 1px 3px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.DessertText2 {
+    width: 300px;
+}
+
+.DessertCard3 img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    position: relative;
+    top: -5px;
+}
+
+.DessertCard3 h3 {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+    color: black;
+    text-decoration: none;
+}
+
+.DessertCard3 p {
+    display: inline;
+    color: black;
+    text-decoration: none;
+}
+
+.DessertCard3 span {
+    position: relative;
+    margin-left: 260px;
+    top: -60px;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 1px 1px 6px rgb(255, 222, 0), 1px 1px 3px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.DessertText3 {
+    width: 300px;
+}
+
+.Menu h1 {
+    border-bottom: 1px solid yellow;
+    /* Box-shadow: 1px 1px 5px rgb(255, 222, 0), 1px 1px 1px rgb(255, 100, 0); */
+    text-shadow: 1px 1px 6px rgb(255, 222, 0), 1px 1px 3px rgb(255, 90, 0);
+    color: yellow;
+    display: inline;
+    font-size: xx-large;
+    text-align: left;
+    padding: 10px 25px;
+    margin: 25px 0px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+
+.News {
+    top: 1425px;
+    position: relative;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.TopNews {
+    margin: 10px;
+    position: absolute;
+    border-radius: 2px;
+    height: 340px;
+    width: 99%;
+    display: block;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5), 1px 1px 8px rgb(255, 222, 0, 0.5);
+}
+
+.TopNews img {
+    float: left;
+    height: 300px;
+    width: 400px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+    transition: 0.2s;
+    margin: 20px;
+}
+
+.TopInteract:hover {
+    box-shadow: 1px 1px 15px rgb(255, 222, 0), 1px 1px 8px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.TopNews p {
+    float: left;
+    text-align: left;
+    position: relative;
+    top: 80px;
+    height: 300px;
+    width: 1000px;
+    margin: 10px;
+}
+
+.TopNews h2 {
+    text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.5);
+}
+
+.TopInteract {
+    float: left;
+    position: absolute;
+    top: 0px;
+    background-color: rgb(0, 0, 0, 0.6);
+    height: 300px;
+    width: 400px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+    transition: 0.2s;
+    margin: 20px;
+}
+
+.TopInteract h2 {
+    position: relative;
+    top: 160px;
+    left: 80px;
+    padding: 2px 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.TopInteract button {
+    position: relative;
+    top: 170px;
+    left: 140px;
+    padding: 7px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 0.25s;
+    background-color: rgb(255, 255, 255, 0);
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+#ReadMT {
+    position: relative;
+    top: 270px;
+    left: 920px;
+    padding: 7px 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 0.25s;
+    background-color: rgb(255, 255, 255, 0);
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+#ReadMT:hover {
+    text-shadow: 0px 0px 20px goldenrod, 0px 0px 5px rgb(255, 89, 0);
+    color: rgb(255, 255, 0);
+}
+
+.TopInteract button:hover {
+    text-shadow: 0px 0px 20px goldenrod, 0px 0px 5px rgb(255, 89, 0);
+    color: rgb(255, 255, 0);
+}
+
+
+.BottomNews {
+    margin: 10px;
+    position: absolute;
+    border-radius: 2px;
+    top: 450px;
+    height: 340px;
+    width: 99%;
+    display: block;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5), 1px 1px 8px rgb(255, 222, 0, 0.5);
+}
+
+.BottomNews img {
+    float: right;
+    height: 300px;
+    width: 400px;
+    position: relative;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+    transition: 0.2s;
+    margin: 20px;
+}
+
+.BottomInteract:hover {
+    box-shadow: 1px 1px 15px rgb(255, 222, 0), 1px 1px 8px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.BottomNews h2 {
+    margin-left: 20px;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.5);
+}
+
+.BottomNews p {
+    position: relative;
+    text-align: left;
+    top: 80px;
+    height: 300px;
+    width: 1100px;
+    margin: 10px;
+}
+
+.BottomInteract {
+    background-color: rgb(0, 0, 0, 0.6);
+    transition: 0.2s;
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left: 1064px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+    transition: 0.2s;
+    top: 0px;
+    margin: 20px;
+}
+
+.BottomInteract h2 {
+    position: relative;
+    top: 160px;
+    left: 38px;
+    padding: 2px 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.BottomInteract button {
+    position: relative;
+    top: 170px;
+    left: 140px;
+    padding: 7px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 0.25s;
+    background-color: rgb(255, 255, 255, 0);
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+#ReadMB {
+    position: relative;
+    top: 620px;
+    left: 275px;
+    padding: 7px 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 0.25s;
+    background-color: rgb(255, 255, 255, 0);
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+#ReadMB:hover {
+    text-shadow: 0px 0px 20px goldenrod, 0px 0px 5px rgb(255, 89, 0);
+    color: rgb(255, 255, 0);
+}
+
+.BottomInteract button:hover {
+    text-shadow: 0px 0px 20px goldenrod, 0px 0px 5px rgb(255, 89, 0);
+    color: rgb(255, 255, 0);
+}
+
+
+.News h1 {
+    border-bottom: 1px solid yellow;
+    /* Box-shadow: 1px 1px 5px rgb(255, 222, 0), 1px 1px 1px rgb(255, 100, 0); */
+    text-shadow: 1px 1px 6px rgb(255, 222, 0), 1px 1px 3px rgb(255, 90, 0);
+    color: yellow;
+    display: inline;
+    font-size: xx-large;
+    text-align: left;
+    padding: 10px 25px;
+    margin: 25px 0px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+
+
+
+.Gallery {
+    top: 2175px;
+    position: relative;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.Row1 {
+    display: inline-block;
+    position: absolute;
+}
+
+.R1Text h2 {
+    top: -450px;
+}
+
+.R2Text h2 {
+    top: -788px;
+
+}
+
+.R3Text h2 {
+    top: -790px;
+}
+
+.R1Text button {
+    top: -765px;
+}
+
+.R2Text button {
+    top: -425px;
+}
+
+.R3Text button {
+    top: -770px;
+}
+
+.R1Text a {
+    top: -765px;
+}
+
+.R2Text a {
+    top: -425px;
+}
+
+.R3Text a {
+    top: -770px;
+}
+
+.R1Text {
+    position: absolute;
+    z-index: 3;
+}
+
+.R2Text {
+    position: absolute;
+    z-index: 3;
+}
+
+.R3Text {
+    position: absolute;
+    z-index: 3;
+}
+
+.Images {
+    position: relative;
+    left: 90px;
+    top: 700px;
+}
+
+.R3I {
+    position: absolute;
+}
+
+.Row2 {
+    display: inline-block;
+    position: absolute;
+}
+
+.Row3 {
+    display: inline-block;
+    position: absolute;
+}
+
+.Row2 img {
+    position: relative;
+    top: -339px;
+}
+
+.Row3 img {
+    position: relative;
+    top: -677px;
+}
+
+
+.Images img {
+    box-shadow: 1px 1px 6px rgb(255, 222, 0), 1px 1px 3px rgb(255, 90, 0);
+    z-index: 1;
+    position: relative;
+    left: 10;
+    margin: 2px 0px;
+    width: 330px;
+    height: 330px;
+}
+
+.R1I div {
+    z-index: 2;
+    display: inline-block;
+    position: relative;
+    background-color: rgb(0, 0, 0, 0.5);
+    left: 10;
+    margin: 2px 0px;
+    width: 330px;
+    height: 330px;
+}
+
+.R1I1 {
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: -339px;
+    transition: 0.2s;
+}
+
+.R1I2 {
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: -339px;
+    transition: 0.2s;
+}
+
+.R1I3 {
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: -339px;
+    transition: 0.2s;
+}
+
+.R1I4 {
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: -339px;
+    transition: 0.2s;
+}
+
+.R2I1 {
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: -677px;
+    transition: 0.2s;
+}
+
+.R2I2 {
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: -677px;
+    transition: 0.2s;
+}
+
+.R2I3 {
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: -677px;
+    transition: 0.2s;
+}
+
+.R2I4 {
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: -677px;
+    transition: 0.2s;
+}
+
+.R3I1 {
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: -1014px;
+    transition: 0.2s;
+}
+
+.R3I2 {
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: -1014px;
+    transition: 0.2s;
+}
+
+.R3I3 {
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: -1014px;
+    transition: 0.2s;
+}
+
+.R3I4 {
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: -1014px;
+    transition: 0.2s;
+}
+
+.R1I1:hover {
+    box-shadow: 1px 1px 15px rgb(255, 222, 0), 1px 1px 8px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.R1I2:hover {
+    box-shadow: 1px 1px 15px rgb(255, 222, 0), 1px 1px 8px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.R1I3:hover {
+    box-shadow: 1px 1px 15px rgb(255, 222, 0), 1px 1px 8px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.R1I4:hover {
+    box-shadow: 1px 1px 15px rgb(255, 222, 0), 1px 1px 8px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.R2I1:hover {
+    box-shadow: 1px 1px 15px rgb(255, 222, 0), 1px 1px 8px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.R2I2:hover {
+    box-shadow: 1px 1px 15px rgb(255, 222, 0), 1px 1px 8px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.R2I3:hover {
+    box-shadow: 1px 1px 15px rgb(255, 222, 0), 1px 1px 8px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.R2I4:hover {
+    box-shadow: 1px 1px 15px rgb(255, 222, 0), 1px 1px 8px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.R3I1:hover {
+    box-shadow: 1px 1px 15px rgb(255, 222, 0), 1px 1px 8px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.R3I2:hover {
+    box-shadow: 1px 1px 15px rgb(255, 222, 0), 1px 1px 8px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.R3I3:hover {
+    box-shadow: 1px 1px 15px rgb(255, 222, 0), 1px 1px 8px rgb(255, 90, 0);
+    color: yellow;
+}
+
+.R3I4:hover {
+    box-shadow: 1px 1px 15px rgb(255, 222, 0), 1px 1px 8px rgb(255, 90, 0);
+    color: yellow;
+}
+
+
+.R1H1 {
+    display: inline-block;
+    text-shadow: 1px 1px 6px rgb(255, 222, 0), 1px 1px 3px rgb(255, 90, 0);
+    color: rgb(255, 255, 0);
+    margin: 0px 35px;
+    font-weight: 200;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R1H2 {
+    display: inline-block;
+    text-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    color: rgb(255, 255, 0);
+    font-weight: 200;
+    margin: 0px 70px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R1H3 {
+    display: inline-block;
+    text-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    color: rgb(255, 255, 0);
+    margin: 0px 30px;
+    font-weight: 200;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R1H4 {
+    display: inline-block;
+    text-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    color: rgb(255, 255, 0);
+    margin: 0px 65px;
+    font-weight: 200;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R2H1 {
+    display: inline-block;
+    text-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    color: rgb(255, 255, 0);
+    margin: 0px 35px;
+    font-weight: 200;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R2H2 {
+    display: inline-block;
+    text-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    color: rgb(255, 255, 0);
+    font-weight: 200;
+    margin: 0px 70px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R2H3 {
+    display: inline-block;
+    text-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    color: rgb(255, 255, 0);
+    margin: 0px 30px;
+    font-weight: 200;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R2H4 {
+    display: inline-block;
+    text-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    color: rgb(255, 255, 0);
+    margin: 0px 65px;
+    font-weight: 200;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R3H1 {
+    display: inline-block;
+    text-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    color: rgb(255, 255, 0);
+    font-weight: 200;
+    margin: 0px 35px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R3H2 {
+    display: inline-block;
+    text-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    color: rgb(255, 255, 0);
+    font-weight: 200;
+    margin: 0px 70px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R3H3 {
+    display: inline-block;
+    text-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    color: rgb(255, 255, 0);
+    margin: 0px 30px;
+    font-weight: 200;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R3H4 {
+    display: inline-block;
+    text-shadow: 0px 0px 6px rgb(255, 222, 0), 0px 0px 3px rgb(255, 90, 0);
+    color: rgb(255, 255, 0);
+    margin: 0px 65px;
+    font-weight: 200;
+    position: relative;
+    transition: 0.2s;
+}
+
+
+.R1B1 {
+    display: inline-block;
+    color: white;
+    left: 26px;
+    margin: 0px 130px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R1B2 {
+    display: inline-block;
+    color: white;
+    left: 19px;
+    margin: 0px 130px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R1B3 {
+    display: inline-block;
+    color: white;
+    margin: 0px 140px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R1B4 {
+    display: inline-block;
+    color: white;
+    left: 12px;
+    margin: 0px 100px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R2B1 {
+    display: inline-block;
+    color: white;
+    left: 26px;
+    margin: 0px 130px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R2B2 {
+    display: inline-block;
+    color: white;
+    left: 19px;
+    margin: 0px 130px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R2B3 {
+    display: inline-block;
+    color: white;
+    margin: 0px 140px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R2B4 {
+    display: inline-block;
+    color: white;
+    left: 12px;
+    margin: 0px 100px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R3B1 {
+    display: inline-block;
+    color: white;
+    left: 26px;
+    margin: 0px 130px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R3B2 {
+    display: inline-block;
+    color: white;
+    left: 19px;
+    margin: 0px 130px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R3B3 {
+    display: inline-block;
+    color: white;
+    margin: 0px 140px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R3B4 {
+    display: inline-block;
+    color: white;
+    left: 12px;
+    margin: 0px 100px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.R2I div {
+    z-index: 2;
+    display: inline-block;
+    position: relative;
+    background-color: rgb(0, 0, 0, 0.5);
+    left: 10;
+    margin: 2px 0px;
+    width: 330px;
+    height: 330px;
+}
+
+.R3I div {
+    z-index: 2;
+    display: inline-block;
+    position: relative;
+    background-color: rgb(0, 0, 0, 0.5);
+    left: 10;
+    margin: 2px 0px;
+    width: 330px;
+    height: 330px;
+}
+
+.Images button {
+    position: relative;
+    padding: 7px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 0.25s;
+    background-color: rgb(255, 255, 255, 0);
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.Images button:hover {
+    text-shadow: 0px 0px 20px goldenrod, 0px 0px 5px rgb(255, 89, 0);
+    color: rgb(255, 255, 0);
+}
+
+.Gallery h1 {
+    border-bottom: 1px solid yellow;
+    /* Box-shadow: 1px 1px 5px rgb(255, 222, 0), 1px 1px 1px rgb(255, 100, 0); */
+    text-shadow: 1px 1px 6px rgb(255, 222, 0), 1px 1px 3px rgb(255, 90, 0);
+    color: yellow;
+    display: inline;
+    font-size: xx-large;
+    text-align: left;
+    padding: 10px 25px;
+    margin: 25px 0px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.GalleryCover{
+    border-top: 1px solid yellow;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    top: 1130px;
+    z-index: 3;
+    background-color: rgb(255, 255, 255);
+}
+
+.Contact{
+    top: 3300px;
+    position: relative;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    z-index: 4;
+}
+
+.Contact h1 {
+    border-bottom: 1px solid yellow;
+    /* Box-shadow: 1px 1px 5px rgb(255, 222, 0), 1px 1px 1px rgb(255, 100, 0); */
+    text-shadow: 1px 1px 6px rgb(255, 222, 0), 1px 1px 3px rgb(255, 90, 0);
+    color: yellow;
+    display: inline;
+    font-size: xx-large;
+    text-align: left;
+    padding: 10px 25px;
+    margin: 25px 0px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
